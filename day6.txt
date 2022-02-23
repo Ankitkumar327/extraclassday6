@@ -1,0 +1,12 @@
+Position has properties as :
+Relative, Absolute, Static, Sticky, Fixed
+
+Position relative means that position related to browsers screen. Position absolute means that position relalted to parent container. Position absolute always related to the parent container, if there is no parent container then it will go for root. 
+
+Mostly, we will be using Position relative to the parent and Position absolute to applied on the child container
+
+By default, position is static, even if we apply some height and width left or right ,it will not move in any direction.
+
+Position Fixed means that it will remain fixed.
+
+Position Sticky is an combination of position relative and fixed, it means that when we  apply the position sticky, when it reaches the parameter defined, the element will get fixed at that pixel.

@@ -1,0 +1,29 @@
+.container {
+  width: 250px;
+  height: 250px;
+  background-color: aqua;
+  position: relative;
+  left: 50px;
+}
+
+.child1 {
+  width: 80px;
+  height: 80px;
+  background-color: royalblue;
+  position: absolute;
+  left: 100px;
+}
+
+.box1 {
+  background-color: gold;
+  position: sticky;
+  top: 10px;
+}
+
+.box2 {
+  width: 80px;
+  height: 50px;
+  background-color: green;
+  position: fixed;
+  bottom: 50px;
+}
